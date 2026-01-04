@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión JQuery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body { text-align: center; font-family: sans-serif; }
+        .galeria { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+        .elemento { border: 1px solid #ccc; padding: 10px; border-radius: 8px; width: 150px; }
+        .elemento img { width: 100px; display: block; margin: 0 auto 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>Gestión de Elementos JQuery</h1>
+
+    <input type="color" id="selectorColor">
+    <button id="botonColor">Cambiar color de fondo</button>
+    <button id="botonNuevo">Añadir más elementos</button>
+    <button id="botonReset">Resetear todo</button>
+
+    <div id="galeria" class="galeria">
+        </div>
+
+    <script src="jquery.js"></script>
+</body>
+</html>
